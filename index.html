@@ -27,7 +27,22 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <style>
+    .delegate-image {
+      width: 150px;
+      height: 150px;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 50%;
+    }
 
+    .delegate-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  </style>
   <!-- =======================================================
   * Template Name: Avilon
   * Template URL: https://bootstrapmade.com/avilon-bootstrap-landing-page-template/
@@ -77,37 +92,14 @@
         <!-- Slide 1 -->
         <div class="carousel-item active">
           <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown"><span>Cross Fertilization between Academia and Industry</span></h2>
-            <p class="animate__animated animate__fadeInUp">Join us for the Indo-French symposium on "Towards Safer and Efficient Catalytic Processes" at BITS Pilani Hyderabad Campus from 24th to 26th October 2024. Explore cutting-edge research and foster collaboration between academia and industry.</p>
-            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
+            <h2 class="animate_animated animate_fadeInDown"><span>Cross Fertilization between Academia and Industry</span></h2>
+            <p class="animate_animated animate_fadeInUp">Join us for the Indo-French symposium on "Cross Fertilization between Academia and Industry: Towards Safer and Efficient Catalytic Processes" by the Department of Chemistry at BITS Pilani Hyderabad Campus from 24th to 26th October 2024. Explore cutting-edge research and foster collaboration between academia and industry.</p>
+            <a href="#about" class="btn-get-started animate_animated animate_fadeInUp scrollto">Learn More</a>
           </div>
         </div>
 
-        <!-- Slide 2 -->
-        <div class="carousel-item">
-          <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown">Distinguished Speakers</h2>
-            <p class="animate__animated animate__fadeInUp">Hear from 26 renowned experts from India and France, covering topics such as CO2 valorization, green catalytic processes, plasmon-assisted water splitting, and more. Engage in discussions on the latest advancements in catalytic research.</p>
-            <a href="#indian-delegates" class="btn-get-started animate__animated animate__fadeInUp scrollto">View Speakers</a>
-          </div>
-        </div>
+   
 
-        <!-- Slide 3 -->
-        <div class="carousel-item">
-          <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown">Networking and Collaboration</h2>
-            <p class="animate__animated animate__fadeInUp">Participate in poster sessions, round table discussions, and informal mixers. Explore opportunities for bilateral collaborations and visit eminent local institutions in Hyderabad. Join us in shaping the future of catalytic processes!</p>
-            <a href="#contact" class="btn-get-started animate__animated animate__fadeInUp scrollto">Register Now</a>
-          </div>
-        </div>
-
-        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a>
-
-        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
 
       </div>
 
@@ -134,29 +126,21 @@
 
       <div class="container">
 
+
+
+
         <div class="row position-relative">
-
-          <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200"><img src="assets/img/bits.jpg" alt="BITS Pilani Hyderabad Campus"></div>
-
-          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
             <h2 class="inner-title">Indo-French Symposium on Catalytic Processes</h2>
             <div class="our-story">
               <h4>24th to 26th October 2024</h4>
               <h3>About the Symposium</h3>
-              <p>The Indo-French symposium "Cross Fertilization between Academia and Industry: Towards Safer and Efficient Catalytic Processes" brings together experts from both countries to foster collaboration and innovation in the field of catalysis.</p>
-              <ul>
-                <li><i class="bi bi-check-circle"></i> <span>26 regular lectures from Indian and French delegates</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>6 short lectures on cutting-edge research</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>Poster session for networking and idea exchange</span></li>
-              </ul>
-              <p>Hosted at BITS Pilani Hyderabad Campus, this symposium aims to bridge the gap between academic research and industrial applications in catalytic processes. Join us for three days of knowledge sharing, collaboration, and exploration of new frontiers in catalysis.</p>
-
+              <p>This conference highlights the transformative role of catalysis in industrial processes and the need for stronger collaboration between academia and industry. With experts from India and France, it focuses on sustainable energy solutions, innovative materials chemistry, and green technologies. The event aims to forge new partnerships, drive cutting-edge research, and shape the future of environmental protection and energy transition. Join us to explore the latest breakthroughs and contribute to the global roadmap for a cleaner, more sustainable future.</p>
+        
               <div class="program-schedule d-flex align-items-center position-relative">
                 <i class="bi bi-calendar-event"></i>
                 <a href="#programSchedule" data-bs-toggle="modal" class="btn-get-started">View Program Schedule</a>
               </div>
-              
-              <!-- Program Schedule Modal -->
               <div class="modal fade" id="programSchedule" tabindex="-1" aria-labelledby="programScheduleLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
                   <div class="modal-content">
@@ -168,7 +152,8 @@
                       <table class="table table-bordered">
                         <thead>
                           <tr>
-                            <th>Time</th>
+                            <th>From</th>
+                            <th>To</th>
                             <th>24th October</th>
                             <th>25th October</th>
                             <th>26th October</th>
@@ -176,116 +161,120 @@
                         </thead>
                         <tbody>
                           <tr>
-                            <td>9:00 - 9:30</td>
-                            <td>Registration</td>
-                            <td>L10</td>
-                            <td>L23</td>
+                            <td>9:30</td>
+                            <td>10:00</td>
+                            <td><strong>Registration</strong></td>
+                            <td>L10 -- DATURI Marco (G204A)</td>
+                            <td>L21 -- Umbarkar Shubhangi (G204A) (Y)</td>
                           </tr>
                           <tr>
-                            <td>9:30 - 10:00</td>
-                            <td>Inauguration & Details on CEFIPRA Activities</td>
-                            <td>L11</td>
-                            <td>L24</td>
+                            <td>10:00</td>
+                            <td>10:30</td>
+                            <td><strong>Inauguration & Details on CEFIPRA Activities (Audi)</strong></td>
+                            <td>L11 Roy Sounak (Y) (G204A)</td>
+                            <td>L22 -- VIGIER DE OLIVEIRA Karine (G204A)</td>
                           </tr>
                           <tr>
-                            <td>10:00 - 10:30</td>
+                            <td>10:30</td>
+                            <td>11:00</td>
                             <td></td>
-                            <td>L12</td>
-                            <td>L25</td>
+                            <td>L12 -- Iyer Parameswar (Y) (G204A)</td>
+                            <td>L23 -- Saikia Lakshi (G204A) (Y)</td>
                           </tr>
                           <tr>
-                            <td>10:30 - 11:00</td>
+                            <td>11:00</td>
+                            <td>11:30</td>
+                            <td><strong>Coffee Break & Photo Session (Audi)</strong></td>
+                            <td><strong>Coffee Break</strong></td>
+                            <td><strong>Coffee Break</strong></td>
+                          </tr>
+                          <tr>
+                            <td>11:30</td>
+                            <td>12:00</td>
+                            <td>L1 -- Jasra Raksh Vir (G204A)</td>
+                            <td>L13 -- Chandra Shekhar Sharma (G204A) (N)</td>
+                            <td>L24 -- Newalkar Bharat (Y) (G 204A)</td>
+                          </tr>
+                          <tr>
+                            <td>12:00</td>
+                            <td>12:30</td>
+                            <td>L2 - GRANGER Pascal (G204A)</td>
+                            <td>L13 -- ROYER Sébastien (G204A)</td>
+                            <td>L25 -- Reddy B M (Y) (G204A)</td>
+                          </tr>
+                          <tr>
+                            <td>12:30</td>
+                            <td>13:00</td>
+                            <td>L3 -- Prasad Bhagavatula (G204A)</td>
+                            <td>L14-- Prof. Vijay, ARCI (G 204A)</td>
+                            <td>L26 -- Sharma Sudhanshu (G204A) (N)</td>
+                          </tr>
+                          <tr>
+                            <td>13:00</td>
+                            <td>14:00</td>
+                            <td><strong>Lunch (Audi Foyar)</strong></td>
+                            <td><strong>Poster Session & Lunch (Audi Foyar)</strong></td>
+                            <td><strong>Poster Session & Lunch (Audi Foyar)</strong></td>
+                          </tr>
+                          <tr>
+                            <td>14:00</td>
+                            <td>14:30</td>
+                            <td>L4 -- Venkata Krishnan (G204A)</td>
+                            <td>L15 -- Vacant</td>
+                            <td>L27 Fabien CAN (G204A)</td>
+                          </tr>
+                          <tr>
+                            <td>14:30</td>
+                            <td>15:00</td>
+                            <td>L5 - Vacant</td>
+                            <td>L16 -- Mirella VIRGINIE (G204A)</td>
+                            <td>L28 Vacant</td>
+                          </tr>
+                          <tr>
+                            <td>15:00</td>
+                            <td>15:30</td>
+                            <td>L6 - Ch. Subramanyam (Y) (G204A)</td>
+                            <td>L17- T. N. Narayanan (N) (G204A)</td>
+                            <td><strong>Valedictory & Concluding Session</strong></td>
+                          </tr>
+                          <tr>
+                            <td>15:30</td>
+                            <td>16:00</td>
+                            <td><strong>Coffee Break</strong></td>
+                            <td><strong>Coffee Break</strong></td>
+                            <td><strong>Coffee Break</strong></td>
+                          </tr>
+                          <tr>
+                            <td>16:00</td>
+                            <td>16:30</td>
+                            <td>L7 - N N Ghosh (N) (G204A)</td>
+                            <td>L18 -- Bharali Pankaj (Y) (G204A)</td>
+                            <td rowspan="4"></td>
+                          </tr>
+                          <tr>
+                            <td>16:30</td>
+                            <td>17:00</td>
+                            <td>L8 - VIGIER DE OLIVEIRA Karine (G204A)</td>
+                            <td>L19 -- PONCHEL Anne (G204A)</td>
+                          </tr>
+                          <tr>
+                            <td>17:00</td>
+                            <td>17:30</td>
+                            <td>L9 -- Lingaiah N (Y) (G 2024A)</td>
+                            <td>L20 -- Gupta Asha (Y) (G204A)</td>
+                          </tr>
+                          <tr>
+                            <td>18:15</td>
+                            <td>-</td>
+                            <td>Cultural Program (Audi)</td>
+                            <td>Institute Tour</td>
+                          </tr>
+                          <tr>
+                            <td>19:30</td>
+                            <td>22:00</td>
+                            <td><strong>Informal Discussions Mixer / Dinner</strong></td>
+                            <td><strong>Discussion on Research Cooperation / Dinner</strong></td>
                             <td></td>
-                            <td>L13</td>
-                            <td>L26</td>
-                          </tr>
-                          <tr>
-                            <td>11:00 - 11:30</td>
-                            <td colspan="3">Coffee Break</td>
-                          </tr>
-                          <tr>
-                            <td>11:30 - 12:00</td>
-                            <td>L1</td>
-                            <td>L14</td>
-                            <td>SL 7 & SL 8</td>
-                          </tr>
-                          <tr>
-                            <td>12:00 - 12:30</td>
-                            <td>L2</td>
-                            <td>L15</td>
-                            <td>Concluding Session</td>
-                          </tr>
-                          <tr>
-                            <td>12:30 - 13:00</td>
-                            <td>L3</td>
-                            <td>L16</td>
-                            <td></td>
-                          </tr>
-                          <tr>
-                            <td>13:00 - 14:00</td>
-                            <td>Lunch</td>
-                            <td>Poster Session & Lunch</td>
-                            <td>Lunch</td>
-                          </tr>
-                          <tr>
-                            <td>14:00 - 14:30</td>
-                            <td>L4</td>
-                            <td>L17</td>
-                            <td rowspan="6">Visit to Various Eminent Local Institutions in Hyderabad and Interaction with the Faculty</td>
-                          </tr>
-                          <tr>
-                            <td>14:30 - 15:00</td>
-                            <td>L5</td>
-                            <td>L18</td>
-                          </tr>
-                          <tr>
-                            <td>15:00 - 15:30</td>
-                            <td>L6</td>
-                            <td>L19</td>
-                          </tr>
-                          <tr>
-                            <td>15:30 - 16:00</td>
-                            <td colspan="2">Coffee Break</td>
-                          </tr>
-                          <tr>
-                            <td>16:00 - 16:30</td>
-                            <td>L7</td>
-                            <td>L20</td>
-                          </tr>
-                          <tr>
-                            <td>16:30 - 17:00</td>
-                            <td>L8</td>
-                            <td>L21</td>
-                          </tr>
-                          <tr>
-                            <td>17:00 - 17:15</td>
-                            <td>L9</td>
-                            <td>L22</td>
-                            <td></td>
-                          </tr>
-                          <tr>
-                            <td>17:15 - 17:30</td>
-                            <td>SL1</td>
-                            <td>SL4</td>
-                            <td></td>
-                          </tr>
-                          <tr>
-                            <td>17:30 - 17:45</td>
-                            <td>SL2</td>
-                            <td>SL5</td>
-                            <td></td>
-                          </tr>
-                          <tr>
-                            <td>17:45 - 18:00</td>
-                            <td>SL3</td>
-                            <td>SL6</td>
-                            <td></td>
-                          </tr>
-                          <tr>
-                            <td>19:30 - 22:00</td>
-                            <td>Informal Discussions</td>
-                            <td>Mixer / Dinner</td>
-                            <td>Discussion on Research Cooperation / Dinner</td>
                           </tr>
                         </tbody>
                       </table>
@@ -298,8 +287,25 @@
               </div>
             </div>
           </div>
-
+        
+          <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/bits.jpg" alt="BITS Pilani Hyderabad Campus">
+          </div>
+        
+          <div class="col-lg-7 offset-lg-5" data-aos="fade-up" data-aos-delay="300">
+            <div class="our-story">
+              <h3>About CEFIPRA</h3>
+              <p>Indo-French Centre for the Promotion of Advanced Research (IFCPAR/CEFIPRA) is a model for international collaborative research in advanced areas of science & technology. The centre was established in 1987 and is being supported by Department of Science & Technology (DST), Government of India and the Ministry for Europe & Foreign Affairs, Government of France. CEFIPRA is actively involved in supporting Indo-French Science, Technology & Innovation (ST&I) system through various activities.</p>
+            </div>
+          </div>
         </div>
+
+
+
+
+
+
+        
 
       </div>
 
@@ -320,8 +326,8 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
+              <div class="delegate-image">
+                <img src="images/sroy.jpeg" alt="Roy Sounak" class="img-fluid rounded-circle" width="150" height="150"">
               </div>
               <a href="#" class="stretched-link">
                 <h3>Roy Sounak</h3>
@@ -331,10 +337,61 @@
             </div>
           </div><!-- End Delegate Item -->
 
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="delegate-image">
+                <img src="images/css.jpg" alt="Chandra Shekhar Sharma" class="img-fluid rounded-circle" width="150" height="150">
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Chandra Shekhar Sharma</h3>
+              </a>
+              <p>IIT, Hyderabad</p>
+              <p><em>Topic: To be announced</em></p>
+            </div>
+          </div><!-- End Delegate Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="delegate-image">
+                <img src="images/vijay.jpg" alt="Prof. Vijay" class="img-fluid rounded-circle" width="150" height="150">
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Prof. Vijay</h3>
+              </a>
+              <p>ARCI, Hyderabad</p>
+              <p><em>Topic: To be announced</em></p>
+            </div>
+          </div><!-- End Delegate Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="delegate-image">
+                <img src="images/nara.jpeg" alt="T.N. Narayanan" class="img-fluid rounded-circle" width="150" height="150">
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>T.N. Narayanan</h3>
+              </a>
+              <p>TIFR, Hyderabad</p>
+              <p><em>Topic: To be announced</em></p>
+            </div>
+          </div><!-- End Delegate Item -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="delegate-image">
+                <img src="images/sharma.jpg" alt="Sharma Sudhanshu" class="img-fluid rounded-circle delegate-img" width="150" height="150">
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Sharma Sudhanshu</h3>
+              </a>
+              <p>IIT, Gandhinagar</p>
+              <p><em>Topic: To be announced</em></p>
+            </div>
+          </div><!-- End Delegate Item -->
+
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
+              <div class="delegate-image">
+                <img src="images/shubh.jpeg" alt="Umbarkar Shubhangi" class="img-fluid rounded-circle delegate-img" width="150" height="150">
               </div>
               <a href="#" class="stretched-link">
                 <h3>Umbarkar Shubhangi</h3>
@@ -344,23 +401,12 @@
             </div>
           </div><!-- End Delegate Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Polshettiwar Vivek</h3>
-              </a>
-              <p>TIFR, Mumbai</p>
-              <p><em>Topic: To be Updated</em></p>
-            </div>
-          </div><!-- End Delegate Item -->
+          
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
+              <div class="delegate-image">
+                <img src="images/subra.jpeg" alt="Subrahmanyam Ch." class="img-fluid rounded-circle" width="150" height="150">
               </div>
               <a href="#" class="stretched-link">
                 <h3>Subrahmanyam Ch.</h3>
@@ -372,8 +418,8 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
+              <div class="delegate-image">
+                <img src="images/prasad.jpeg" alt="Prasad Bhagavatula" class="img-fluid rounded-circle" width="150" height="150">
               </div>
               <a href="#" class="stretched-link">
                 <h3>Prasad Bhagavatula</h3>
@@ -385,8 +431,8 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
+              <div class="delegate-image">
+                <img src="images/iyer.jpeg" alt="Iyer Parameswar" class="img-fluid rounded-circle" width="150" height="150">
               </div>
               <a href="#" class="stretched-link">
                 <h3>Iyer Parameswar</h3>
@@ -399,8 +445,8 @@
           <!-- Additional Indian Delegate Items -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
             <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
+              <div class="delegate-image">
+                <img src="images/asha.jpeg" alt="Gupta Asha" class="img-fluid rounded-circle delegate-img" width="150" height="150">
               </div>
               <a href="#" class="stretched-link">
                 <h3>Gupta Asha</h3>
@@ -412,8 +458,8 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="800">
             <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
+              <div class="delegate-image">
+                <img src="images/new.jpeg" alt="Newalkar Bharat" class="img-fluid rounded-circle delegate-img" width="150" height="150" >
               </div>
               <a href="#" class="stretched-link">
                 <h3>Newalkar Bharat</h3>
@@ -423,10 +469,12 @@
             </div>
           </div><!-- End Delegate Item -->
 
+          
+
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="900">
             <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
+              <div class="delegate-image">
+                <img src="images/jasra.jpeg" alt="Jasra Raksh Vir" class="img-fluid rounded-circle" width="150" height="150">
               </div>
               <a href="#" class="stretched-link">
                 <h3>Jasra Raksh Vir</h3>
@@ -436,23 +484,12 @@
             </div>
           </div><!-- End Delegate Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="1000">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Pant Kamal Kishore</h3>
-              </a>
-              <p>IIT, Roorkee</p>
-              <p><em>Topic: To be Updated</em></p>
-            </div>
-          </div><!-- End Delegate Item -->
+         
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="1100">
             <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
+              <div class="delegate-image">
+                <img src="images/lingaiah.jpeg" alt="Lingaiah N" class="img-fluid rounded-circle" width="150" height="150">
               </div>
               <a href="#" class="stretched-link">
                 <h3>Lingaiah N</h3>
@@ -464,21 +501,36 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="1200">
             <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
+              <div class="delegate-image">
+                <img src="images/ghosh.jpeg" alt="N N Ghosh" class="img-fluid rounded-circle delegate-img" width="150" height="150">
               </div>
               <a href="#" class="stretched-link">
-                <h3>Biswas Kanishka</h3>
+                <h3>N N Ghosh</h3>
               </a>
-              <p>JNCASR, Bengaluru</p>
+              <p>BITS Pilani, Goa Campus</p>
+              <p><em>Topic: To be Updated</em></p>
+            </div>
+          </div><!-- End Delegate Item -->
+
+          
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="1200">
+            <div class="service-item position-relative">
+              <div class="delegate-image">
+                <img src="images/venkata.jpeg" alt="Venkata Krishnan" class="img-fluid rounded-circle" width="150" height="150">
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Venkata Krishnan</h3>
+              </a>
+              <p>IIT, Mandi</p>
               <p><em>Topic: To be Updated</em></p>
             </div>
           </div><!-- End Delegate Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="1300">
             <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
+              <div class="delegate-image">
+                <img src="images/bm.jpg" alt="Prof. BM Reddy" class="img-fluid rounded-circle" width="150" height="150">
               </div>
               <a href="#" class="stretched-link">
                 <h3>Reddy Benjaram</h3>
@@ -490,8 +542,8 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="1400">
             <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
+              <div class="delegate-image">
+                <img src="images/lakshi.jpeg" alt="Saikia Lakshi" class="img-fluid rounded-circle" width="150" height="150">
               </div>
               <a href="#" class="stretched-link">
                 <h3>Saikia Lakshi</h3>
@@ -503,8 +555,8 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="1500">
             <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
+              <div class="delegate-image">
+                <img src="images/pankaj.jpeg" alt="Bharali Pankaj" class="img-fluid rounded-circle" width="150" height="150">
               </div>
               <a href="#" class="stretched-link">
                 <h3>Bharali Pankaj</h3>
@@ -534,8 +586,8 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
+              <div class="delegate-image">
+                <img src="images/marco.jpeg" alt="Marco" class="img-fluid rounded-circle" width="150" height="150">
               </div>
               <a href="#" class="stretched-link">
                 <h3>DATURI Marco</h3>
@@ -547,8 +599,8 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
+              <div class="delegate-image">
+                <img src="images/pascal.jpeg" alt="Pascal" class="img-fluid rounded-circle" width="150" height="150">
               </div>
               <a href="#" class="stretched-link">
                 <h3>GRANGER Pascal</h3>
@@ -558,67 +610,66 @@
             </div>
           </div><!-- End Delegate Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
+              <div class="delegate-image">
+                <img src="images/karine.jpeg" alt="Karine" class="img-fluid rounded-circle" width="150" height="150">
               </div>
               <a href="#" class="stretched-link">
-                <h3>KELLER Valérie</h3>
+                <h3>VIGIER DE OLIVEIRA Karine</h3>
               </a>
-              <p>ICPEES, Strasbourg</p>
-              <p><em>Topic: Solar driven catalytic technologies</em></p>
+              <p>Université de Poitiers</p>
+              <p><em>Topic: To be announced</em></p>
+            </div>
+          </div><!-- End Delegate Item -->
+        
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="delegate-image">
+                <img src="images/royer.jpeg" alt="ROYER" class="img-fluid rounded-circle" width="150" height="150">
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>ROYER Sébastien</h3>
+              </a>
+              <p>Université de Lille</p>
+              <p><em>Topic: To be announced</em></p>
             </div>
           </div><!-- End Delegate Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
+              <div class="delegate-image">
+                <img src="images/vir.jpeg" alt="Mirella" class="img-fluid rounded-circle" width="150" height="150">
               </div>
               <a href="#" class="stretched-link">
-                <h3>LORIDANT Stéphane</h3>
+                <h3>VIRGINIE Mirella</h3>
               </a>
-              <p>Ircelyon</p>
-              <p><em>Topic: Catalysis on mixed oxides – selective oxidation and acid base catalysis</em></p>
+              <p>Université de Lille</p>
+              <p><em>Topic: To be announced</em></p>
             </div>
           </div><!-- End Delegate Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
+              <div class="delegate-image">
+                <img src="images/can.jpeg" alt="CAN" class="img-fluid rounded-circle" width="150" height="150">
               </div>
               <a href="#" class="stretched-link">
-                <h3>MARCHANT Olivier</h3>
+                <h3>CAN Fabien</h3>
               </a>
-              <p>CRMT Lyon</p>
-              <p><em>Topic: Development of clean technologies for diesel and gasoline engines</em></p>
+              <p>Université de Poitiers</p>
+              <p><em>Topic: To be announced</em></p>
             </div>
           </div><!-- End Delegate Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>PERUCH Olivier</h3>
-              </a>
-              <p>Adisseo</p>
-              <p><em>Topic: Development and the optimization of existing and new industrial catalytic processes</em></p>
-            </div>
-          </div><!-- End Delegate Item -->
-
+        
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
             <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
+              <div class="delegate-image">
+                <img src="images/anne.jpeg" alt="Anne" class="img-fluid rounded-circle" width="150" height="150">
               </div>
               <a href="#" class="stretched-link">
                 <h3>PONCHEL Anne</h3>
               </a>
-              <p>UCCS, Lille</p>
+              <p>UCCS, Artois</p>
               <p><em>Topic: Biomass conversion into add value products from derived cyclodextrine systems</em></p>
             </div>
           </div><!-- End Delegate Item -->
@@ -635,79 +686,7 @@
       </div>  
     </section>  
   
-    <section id="faq" class="faq section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Frequently Asked Questions</h2>
-        <p>Key information about the Indo-French symposium on catalytic processes</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row justify-content-center">
-
-          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="faq-container">
-
-              <div class="faq-item faq-active">
-                <h3>What is the full name and focus of the symposium?</h3>
-                <div class="faq-content">
-                  <p>The full name is "Cross Fertilization between Academia and Industry: Towards Safer and Efficient Catalytic Processes". It focuses on fostering collaboration between academic research and industrial applications in the field of catalysis.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>When and where will the symposium be held?</h3>
-                <div class="faq-content">
-                  <p>The symposium will be held from 24th to 26th October 2024 at BITS Pilani Hyderabad Campus in India.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>Who are the keynote speakers?</h3>
-                <div class="faq-content">
-                  <p>The symposium features distinguished speakers from both India and France, including experts from institutions like BITS Pilani, IIT Hyderabad, CSIR-NCL, ENSI Caen, and UCCS Lille, among others. Please refer to the delegates section for a full list of speakers and their topics.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>What types of sessions will be included in the symposium?</h3>
-                <div class="faq-content">
-                  <p>The symposium will include 26 regular lectures (30 minutes each), 6 short lectures (15 minutes each), a poster session, round table discussions, and networking opportunities during meals.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>Will there be any industry representation at the symposium?</h3>
-                <div class="faq-content">
-                  <p>Yes, the symposium includes speakers from industry, such as representatives from Bharat Petroleum Corporation Limited (BPCL) and Reliance Industries Limited, ensuring a balance between academic and industrial perspectives.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>Are there any additional activities planned during the symposium?</h3>
-                <div class="faq-content">
-                  <p>Yes, the program includes visits to various eminent local institutions in Hyderabad and interactions with faculty members. There will also be informal discussions and networking opportunities during meals.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-            </div>
-
-          </div><!-- End Faq Column-->
-
-        </div>
-
-      </div>
-
-    </section>
+    
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
@@ -743,43 +722,13 @@
               <i class="bi bi-info-circle flex-shrink-0"></i>
               <div>
                 <h3>Additional Information</h3>
-                <p>For more details, please contact the organizers</p>
+                <p>For more details, please contact Prof. Sounak Roy (Indian Coordinator) at xsafe.cat@hyderabad.bits-pilani.ac.in</p>
               </div>
             </div><!-- End Info Item -->
 
           </div>
 
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
+          
 
         </div>
 
