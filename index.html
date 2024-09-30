@@ -96,6 +96,7 @@
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      background-attachment: fixed; /* This makes the image scroll with the page */
       height: 100vh;
       display: flex;
       align-items: center;
@@ -111,6 +112,7 @@
   @media (max-width: 768px) { /* Adjust the breakpoint as needed */
     #hero .carousel-item {
       height: 50vh; /* Change the height for mobile devices */
+      background-attachment: scroll; /* Allow scrolling on mobile devices */
     }
   }
 </style>
