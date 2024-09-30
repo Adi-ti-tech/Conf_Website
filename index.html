@@ -87,22 +87,34 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+<section id="hero" class="hero section dark-background">
+  <div id="hero-carousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
 
-      <div id="hero-carousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+    <!-- Slide 1 -->
+    <div class="carousel-item active" style="
+      background-image: url('assets/img/fp-1.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    ">
+      <!-- Content can go here -->
+    </div>
+  </div>
+</section>
 
-        <!-- Slide 1 -->
-        <div class="carousel-item active" style="
-    background-image: url('assets/img/fp-1.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-">
+<style>
+  @media (max-width: 768px) { /* Adjust the breakpoint as needed */
+    #hero .carousel-item {
+      height: 50vh; /* Change the height for mobile devices */
+    }
+  }
+</style>
+
     
         
     </div>
